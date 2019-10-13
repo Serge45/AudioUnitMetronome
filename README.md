@@ -35,7 +35,7 @@ An AUAudioUnit-based metronome demostration app
  - Set an `id<MetronomeBeatChangedPerceivable>` as delegate for `AudioUnitMetronome` if you want to get notification while beat changed, e.g. play click sound or display beat number.
 
  
-For more informations, may reference to ViewController.m for more details.
+For more informations, may refer to ViewController.m for more details.
  
 
 
