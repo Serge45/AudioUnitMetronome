@@ -30,7 +30,7 @@ An AUAudioUnit-based metronome demostration app
                                              options:kAudioComponentInstantiation_LoadOutOfProcess
                                    completionHandler:^(__kindof AVAudioUnit * _Nullable audioUnit, NSError * _Nullable error) {
 //connect your audio nodes here
-}
+}];
  ```
  - Set an `id<MetronomeBeatChangedPerceivable>` as delegate for `AudioUnitMetronome` if you want to get notification while beat changed, e.g. play click sound or display beat number.
 
